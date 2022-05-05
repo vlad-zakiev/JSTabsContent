@@ -1,3 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body{
     background-color: rgb(43, 46, 70);
+    height: 100vh;
+}
+
+.tabs-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.tabs-navigation{
+    display: flex;
+    list-style: none;
+    background-color: rgb(228, 186, 0);
+    color: #fff;
+    font-size: 25px;
+}
+.tab{
+    padding: 10px 30px;
+    cursor: pointer;
+}
+.tab.active{
+    background-color: #fff;
+    color: #333;
 }
