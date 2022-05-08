@@ -7,8 +7,14 @@ body{
     background-color: rgb(43, 46, 70);
     height: 100vh;
 }
-
+.container{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
 .tabs-wrapper{
+    width: 500px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -21,12 +27,30 @@ body{
     background-color: rgb(228, 186, 0);
     color: #fff;
     font-size: 25px;
+    width: 100%;
 }
 .tab{
     padding: 10px 30px;
     cursor: pointer;
+    
 }
 .tab.active{
+    border-top: 3px solid rgb(0, 184, 230);
     background-color: #fff;
     color: #333;
+    transition: 0.3s;
+}
+.tab-content{
+    width: 100%;
+    background-color: #fff;
+    transition: 00.3s;
+}
+.single-tab{
+    padding: 10px;
+    font-size: 16px;
+    line-height: 26px;
+    display: none;
+}
+.active-tab{
+    display: block;
 }

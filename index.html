@@ -8,16 +8,18 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="tabs-wrapper">
-        <ul class="tabs-navigation">
-            <li class="tab active">One</li>
-            <li class="tab">Two</li>
-            <li class="tab">Three</li>
-        </ul>
-        <div class="tab-content">
-            <div class="content-one">ONE It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</div>
-            <div class="content-teo">TWO It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</div>
-            <div class="content-three">THREE It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</div>
+    <div class="container">
+        <div class="tabs-wrapper">
+            <ul class="tabs-navigation">
+                <li class="tab active" data-content=".content-one">One</li>
+                <li class="tab" data-content=".content-two">Two</li>
+                <li class="tab" data-content=".content-three">Three</li>
+            </ul>
+            <div class="tab-content">
+                <div class="content-one single-tab active-tab ">ONE It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</div>
+                <div class="content-two single-tab">TWO It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</div>
+                <div class="content-three single-tab">THREE It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</div>
+            </div>
         </div>
     </div>
 </body>
