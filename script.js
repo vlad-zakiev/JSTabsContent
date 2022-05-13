@@ -6,12 +6,11 @@ tabNav.forEach(element=> {
         tabNav.forEach(element=>{
             element.classList.remove('active')
         })
-        element.currentTarget.classList.add('active');
+        element.target.classList.add('active');
 
         tabContent.forEach(div=>{
             div.style.display='none'
         })
-        document.querySelector(element.currentTarget.dataset.content).style.display='block';
+        document.querySelector(element.target.dataset.content).style.display='block';
     })
 })
-

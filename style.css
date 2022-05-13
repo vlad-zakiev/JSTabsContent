@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 body{
     background-color: rgb(43, 46, 70);
@@ -43,7 +44,7 @@ body{
 .tab-content{
     width: 100%;
     background-color: #fff;
-    transition: 00.3s;
+    transition: 0.3s;
 }
 .single-tab{
     padding: 10px;
